@@ -1,2 +1,3 @@
-# zmk-config-corne42
-ZMK Firmware for my custom Corne Keyboard
+```bash
+bash -c "$(curl -fsSL https://zmk.dev/setup.sh)"
+```
