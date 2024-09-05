@@ -78,9 +78,9 @@
             layers = <0>;
         };
 
-        BRACKET2C {
-            bindings = <&kp LEFT_BRACKET>;
-            key-positions = <35 34>;
+        LBRACKET2C {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <34 33>;
             layers = <0>;
         };
 
@@ -158,6 +158,12 @@
         NAVIGATION2C {
             bindings = <&lt 2 SPACE>;
             key-positions = <37 40>;
+        };
+
+        RBRACKET2C {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <26 25>;
+            layers = <0>;
         };
     };
 
