@@ -79,14 +79,14 @@
         };
 
         LBRACKET2C {
-            bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <34 33>;
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <25 26>;
             layers = <0>;
         };
 
         RBRACKET2C {
-            bindings = <&kp LEFT_BRACKET>;
-            key-positions = <26 25>;
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <33 34>;
             layers = <0>;
         };
 
