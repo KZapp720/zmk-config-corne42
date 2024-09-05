@@ -15,31 +15,37 @@
         LSHIFT4C {
             bindings = <&kp LSHFT>;
             key-positions = <25 26 27 28>;
+            layers = <0 1 2>;
         };
 
         LCTRL4C {
             bindings = <&kp LCTRL>;
             key-positions = <13 14 15 16>;
+            layers = <0 2 1>;
         };
 
         LALT4C {
             bindings = <&kp LALT>;
             key-positions = <1 2 3 4>;
+            layers = <0 2 1>;
         };
 
         RSHIFT4C {
             bindings = <&kp RSHFT>;
             key-positions = <31 32 33 34>;
+            layers = <0 1 2>;
         };
 
         RCTRL4C {
             bindings = <&kp RCTRL>;
             key-positions = <19 20 22 21>;
+            layers = <0 1 2>;
         };
 
         RALT4C {
             bindings = <&kp RALT>;
             key-positions = <7 8 9 10>;
+            layers = <0 1 2>;
         };
 
         LSHIFT3C {
@@ -185,6 +191,11 @@
             bindings = <&kp DELETE>;
             key-positions = <24 25>;
         };
+
+        STENO2C {
+            bindings = <&tog 3>;
+            key-positions = <38 39>;
+        };
     };
 
     keymap {
@@ -214,6 +225,15 @@
 &mt LCTRL BACKSPACE  &kp PAGE_DOWN  &kp LEFT            &kp DOWN_ARROW  &kp RIGHT      &kp END       &kp END     &kp RS(LEFT)            &kp RS(DOWN)      &kp RS(RIGHT)      &kp PAGE_DOWN  &mt RCTRL RET
 &mt LSHFT SPACE      &kp K_UNDO     &kp K_CUT           &kp K_COPY      &kp K_PASTE    &kp K_REDO    &kp K_REDO  &kp K_PASTE             &kp K_COPY        &kp K_CUT          &kp K_UNDO     &mt RSHFT SPACE
                                                         &trans          &trans         &trans        &trans      &trans                  &trans
+            >;
+        };
+
+        Stenography {
+            bindings = <
+&kp KP_ASTERISK  &kp S   &kp T   &kp P   &kp H   &kp KP_MULTIPLY    &kp KP_MULTIPLY  &kp F   &kp P   &kp L   &kp T   &kp D
+&kp KP_ASTERISK  &kp S   &kp K   &kp W   &kp R   &kp KP_MULTIPLY    &kp KP_MULTIPLY  &kp R   &kp B   &kp G   &kp S   &kp Z
+&kp BSPC         &kp N1  &kp N2  &kp N3  &kp N4  &kp N5             &kp N6           &kp N7  &kp N8  &kp N9  &kp N0  &kp ENTER
+                                 &kp A   &kp O   &kp KP_DOT         &kp KP_DOT       &kp E   &kp U
             >;
         };
     };
