@@ -175,6 +175,16 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <34 35>;
         };
+
+        ESCAPE2C {
+            bindings = <&kp ESCAPE>;
+            key-positions = <13 12>;
+        };
+
+        DELETE2C {
+            bindings = <&kp DELETE>;
+            key-positions = <24 25>;
+        };
     };
 
     keymap {
