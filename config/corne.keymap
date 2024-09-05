@@ -143,6 +143,22 @@
             key-positions = <10 11>;
             layers = <0 2>;
         };
+
+        SUPER2C {
+            bindings = <&kp RGUI>;
+            key-positions = <24 35>;
+            layers = <1 2>;
+        };
+
+        SYMBOL2C {
+            bindings = <&lt 1 DELETE>;
+            key-positions = <36 41>;
+        };
+
+        NAVIGATION2C {
+            bindings = <&lt 2 SPACE>;
+            key-positions = <37 40>;
+        };
     };
 
     keymap {
