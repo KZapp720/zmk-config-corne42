@@ -51,31 +51,37 @@
         LSHIFT3C {
             bindings = <&kp LSHFT>;
             key-positions = <25 26 27>;
+            layers = <0 1 2>;
         };
 
         LCTRL3C {
             bindings = <&kp LCTRL>;
             key-positions = <13 14 15>;
+            layers = <0 1 2>;
         };
 
         LALT3C {
             bindings = <&kp LALT>;
             key-positions = <1 2 3>;
+            layers = <0 1 2>;
         };
 
         RSHIFT3C {
             bindings = <&kp RSHFT>;
             key-positions = <32 33 34>;
+            layers = <0 1 2>;
         };
 
         RCTRL3C {
             bindings = <&kp RCTRL>;
             key-positions = <20 22 21>;
+            layers = <0 1 2>;
         };
 
         RALT3C {
             bindings = <&kp RALT>;
             key-positions = <8 9 10>;
+            layers = <0 1 2>;
         };
 
         CAPSLOCK8C {
@@ -162,34 +168,40 @@
             layers = <1 2>;
         };
 
-        SYMBOL2C {
-            bindings = <&lt 1 ESCAPE>;
-            key-positions = <36 41>;
-        };
-
-        NAVIGATION2C {
-            bindings = <&lt 2 SPACE>;
-            key-positions = <37 40>;
-        };
-
         RETURN2C {
             bindings = <&kp RETURN>;
             key-positions = <22 23>;
+            layers = <0 1 2>;
         };
 
         BACKSPACE2C {
             bindings = <&kp BACKSPACE>;
             key-positions = <34 35>;
+            layers = <0 1 2>;
         };
 
         ESCAPE2C {
             bindings = <&kp ESCAPE>;
             key-positions = <13 12>;
+            layers = <0 1 2>;
         };
 
         DELETE2C {
             bindings = <&kp DELETE>;
             key-positions = <24 25>;
+            layers = <0 1 2>;
+        };
+        
+        SYMBOL2C {
+            bindings = <&lt 1 ESCAPE>;
+            key-positions = <36 41>;
+            layers = <0 1 2>;
+        };
+
+        NAVIGATION2C {
+            bindings = <&lt 2 SPACE>;
+            key-positions = <37 40>;
+            layers = <0 1 2>;
         };
 
         STENO2C {
