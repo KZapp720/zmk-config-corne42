@@ -12,39 +12,76 @@
     combos {
         compatible = "zmk,combos";
 
-        LSHIFTC {
+        LSHIFT4C {
             bindings = <&kp LSHFT>;
             key-positions = <25 26 27 28>;
         };
 
-        LCTRLC {
+        LCTRL4C {
             bindings = <&kp LCTRL>;
             key-positions = <13 14 15 16>;
         };
 
-        LALTC {
+        LALT4C {
             bindings = <&kp LALT>;
             key-positions = <1 2 3 4>;
         };
 
-        RSHIFTC {
+        RSHIFT4C {
             bindings = <&kp RSHFT>;
             key-positions = <31 32 33 34>;
         };
 
-        RCTRLC {
+        RCTRL4C {
             bindings = <&kp RCTRL>;
             key-positions = <19 20 22 21>;
         };
 
-        RALTC {
+        RALT4C {
             bindings = <&kp RALT>;
             key-positions = <7 8 9 10>;
         };
 
-        CAPSLOCKC {
+        LSHIFT3C {
+            bindings = <&kp LSHFT>;
+            key-positions = <25 26 27>;
+        };
+
+        LCTRL3C {
+            bindings = <&kp LCTRL>;
+            key-positions = <13 14 15>;
+        };
+
+        LALT3C {
+            bindings = <&kp LALT>;
+            key-positions = <1 2 3>;
+        };
+
+        RSHIFT3C {
+            bindings = <&kp RSHFT>;
+            key-positions = <32 33 34>;
+        };
+
+        RCTRL3C {
+            bindings = <&kp RCTRL>;
+            key-positions = <19 20 22 21>;
+        };
+
+        RALT3C {
+            bindings = <&kp RALT>;
+            key-positions = <8 9 10>;
+        };
+
+        CAPSLOCK8C {
             bindings = <&kp CAPS>;
             key-positions = <25 26 27 28 31 32 33 34>;
+            layers = <0>;
+        };
+
+        BRACKET2C {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <35 34>;
+            layers = <0>;
         };
     };
 
