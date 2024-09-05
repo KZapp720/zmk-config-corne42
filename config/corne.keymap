@@ -84,6 +84,12 @@
             layers = <0>;
         };
 
+        RBRACKET2C {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <26 25>;
+            layers = <0>;
+        };
+
         ONE2C {
             bindings = <&kp NUMBER_1>;
             key-positions = <0 1>;
@@ -158,12 +164,6 @@
         NAVIGATION2C {
             bindings = <&lt 2 SPACE>;
             key-positions = <37 40>;
-        };
-
-        RBRACKET2C {
-            bindings = <&kp LEFT_BRACKET>;
-            key-positions = <26 25>;
-            layers = <0>;
         };
     };
 
